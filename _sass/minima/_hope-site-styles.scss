@@ -27,3 +27,24 @@ h1, h2, h3, h4, h5, h6 {
 .site-nav {
   margin-top: 3px;
 }
+
+// featured content for home page
+
+.featured-content {
+  background-color: $tan;
+  overflow: hidden;
+  margin-top: -30px;
+  margin-bottom: 30px;
+
+  .content-frame {
+    width: 320px;
+    float: left;
+    margin: 48px 0;
+  }
+
+  .page-headline {
+    font-size: 56px;
+    color: $brown-drk;
+    line-height: 1.1;
+  }
+}
