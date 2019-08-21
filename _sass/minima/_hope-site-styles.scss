@@ -17,6 +17,11 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     background-color: $green-drk;
   }
+
+  &.btn-large {
+    font-size: 22px;
+    padding: 12px 24px;
+  }
 }
 
 .site-logo {
@@ -51,5 +56,10 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 56px;
     color: $brown-drk;
     line-height: 1.1;
+    margin: 25px 0;
+  }
+
+  .subhead {
+    margin-bottom: 30px;
   }
 }
