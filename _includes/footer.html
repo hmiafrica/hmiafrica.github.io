@@ -5,16 +5,22 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col one-half">
-      <h2 class="footer-heading">{{ site.title | escape }}</h2>
+      <!--h2 class="footer-heading">Hope Ministries International</h2-->
         <ul class="contact-list">
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
+          <li>Mail your contribution to:</li>
+          <li class="footer-address">Hope Ministries International</li>
+          <li class="footer-address">854 9th Avenue</li>
+          <li class="footer-address">Brackenridge, PA 15014</li>
+          <li><br></li>
+          <li>Reach us via email:</li>
+          <li>
+            {%- if site.email -%} <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>{%- endif -%}
+          </li>
         </ul>
       </div>
 
       <div class="footer-col one-half">
-        <p>{{- site.description | escape -}}</p>
+        <p>Hope Ministries International is a US registered 501(c)3 nonprofit organization serving those in need in Nairobi, Kenya. Your donations are tax deductible in full or in part.</p>
       </div>
     </div>
 
