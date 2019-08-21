@@ -31,10 +31,15 @@ h1, h2, h3, h4, h5, h6 {
 // featured content for home page
 
 .featured-content {
+  min-height: 480px;
   background-color: $tan;
   overflow: hidden;
   margin-top: -30px;
   margin-bottom: 30px;
+  background-image: url(/assets/images/featured-img-kinani-kids.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: contain;
 
   .content-frame {
     width: 320px;
