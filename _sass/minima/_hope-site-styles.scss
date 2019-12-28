@@ -91,7 +91,10 @@ h1, h2, h3, h4, h5, h6 {
 
   h2 {
     text-align: center;
-    font-size: 48px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    margin-top: 60px;
   }
 }
 
@@ -108,11 +111,19 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   h3 {
-    font-size: 36px;
+    font-size: 32px;
+    color: $brown-drk;
   }
 
   p {
     font-size: 14px;
+  }
+
+  .supporting-image {
+    border-radius: 4px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 12px rgba($brown-drk, .3);
+    max-width: 100%;
   }
 
   &.athi-river-well {
@@ -120,7 +131,7 @@ h1, h2, h3, h4, h5, h6 {
 
     .content-frame {
       float: left;
-      width: 260px;
+      width: 340px;
     }
   }
 
