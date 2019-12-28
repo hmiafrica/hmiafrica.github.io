@@ -85,6 +85,50 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+// Project section
+
+.projects {
+
+  h2 {
+    text-align: center;
+    font-size: 48px;
+  }
+}
+
+.project {
+  min-height: 811px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+
+  .content-frame {
+    margin: 48px 0;
+  }
+
+  h3 {
+    font-size: 36px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  &.athi-river-well {
+    background-image: url(/assets/images/projects-athi-river-well-bg.jpg);
+
+    .content-frame {
+      float: left;
+      width: 260px;
+    }
+  }
+
+  &.schools {
+    background-image: url(/assets/images/projects-schools-bg.jpg);
+  }
+}
+
 // footer
 
  .footer-address {
