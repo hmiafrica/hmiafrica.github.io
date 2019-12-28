@@ -66,6 +66,16 @@ h1, h2, h3, h4, h5, h6 {
   .subhead {
     margin-bottom: 30px;
   }
+
+  @media screen and (max-width: $on-medium) {
+    background-image: url(/assets/images/featured-img-kinani-kids-mobile.jpg);
+
+    .content-frame {
+      float: none;
+      width: 100%;
+      margin-top: 300px;
+    }
+  }
 }
 
 // footer
