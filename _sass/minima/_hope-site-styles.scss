@@ -18,6 +18,10 @@ h1, h2, h3, h4, h5, h6 {
     background-color: $green-drk;
   }
 
+  &:visited {
+    color: white;
+  }
+
   &.btn-large {
     font-size: 22px;
     padding: 12px 24px;
