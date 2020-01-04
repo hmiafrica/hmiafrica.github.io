@@ -188,6 +188,19 @@ h1, h2, h3, h4, h5, h6 {
     .project-img {
       background-image: url(/assets/images/projects-prayer-center-bg.jpg);
     }
+
+    .content-frame {
+      margin-bottom: -60px;
+    }
+
+    .copy {
+      columns: 2 auto;
+      margin-bottom: 20px;
+
+      @media screen and (max-width: 410px) {
+        columns: 1;
+      }
+    }
   }
 }
 
